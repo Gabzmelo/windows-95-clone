@@ -1,0 +1,15 @@
+@mixin border {
+    background: #c3c6cd;
+    border-top: 2px solid #deebf3;
+    border-left: 2px solid #deebf3;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+@mixin border-active {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid #deebf3;
+    border-bottom: 2px solid #deebf3;
+}
+

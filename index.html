@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 95</title>
+
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+
+<body>
+    <div class="desktop">
+
+        <!--TASKBAR-->
+        <div class="taskbar">
+
+            <!--MENU-->
+            <button onclick="menu()" class="start"><img src="/img/start.png" alt="">Start</button>
+            <div id="menuStart" class="menu">
+                <div class="bar">
+                    <div class="win">
+                        Windows
+                        <span class="num">95</span>
+                    </div>
+                </div>
+
+                <div class="menuItem">
+                    <img src="/img/programs.png" alt="" class="icons">Programs
+                    <div class="expander1"></div>
+                </div>
+
+                <div class="menuItem">
+                    <img src="/img//documents.png" alt="" class="icons">Documents
+                    <div class="expander2"></div>
+                </div>
+
+                <div class="menuItem">
+                    <img src="/img/settings.png" alt="" class="icons">Settings
+                    <div class="expander3"></div>
+                </div>
+
+                <div class="menuItem">
+                    <img src="/img/find.png" alt="" class="icons">Find
+                </div>
+
+                <div class="menuItem">
+                    <img src="/img/help.png" alt="" class="icons">Help
+                </div>
+
+                <div class="menuItem">
+                    <img src="/img/run.png" alt="" class="icons">Run
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="menuItem" id="shutdown">
+                    <img src="/img/shutdown.png" alt="" class="icons">Sh<span
+                        style="text-decoration:underline;">u</span>t Down
+                </div>
+            </div>
+            <!--//MENU-->
+
+            <!--CLOCK-->
+            <div id="clock" class="clock">
+                </d>
+            </div>
+            <!--//CLOCK-->
+
+            <!--//TASKBAR-->
+        </div>
+
+
+        <!--DESKTOP ICONS-->
+        <div class="desktop-icon">
+            <img src="/img/mycomputer.png" alt="" class="computer">
+            <p class="desktop-icon-text">My Computer</p>
+        </div>
+
+        <div class="desktop-icon">
+            <img src="/img/nn.png" alt="" class="network">
+            <p class="desktop-icon-text">Network Neighborhood</p>
+        </div>
+
+        <div class="desktop-icon">
+            <img src="/img/recyclebin.png" alt="" class="recycle">
+            <p class="desktop-icon-text">Recycle Bin</p>
+        </div>
+
+        <div class="desktop-icon">
+            <img src="/img/folder.png" alt="" class="folder1">
+            <p class="desktop-icon-text">Online Services</p>
+        </div>
+        <!--//DESKTOP ICONS-->
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>

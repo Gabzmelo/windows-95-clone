@@ -1,0 +1,231 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'MS Sans Serif', sans-serif;
+}
+
+.desktop {
+  background: #208c71;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.desktop .desktop-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 10px;
+}
+
+.desktop .desktop-icon-text {
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.computer {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.network {
+  margin-top: 120px;
+  width: 50px;
+  height: 50px;
+}
+
+.recycle {
+  margin-top: 220px;
+  width: 50px;
+  height: 50px;
+}
+
+.folder1 {
+  margin-top: 320px;
+  width: 50px;
+  height: 50px;
+}
+
+.taskbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background: #c3c6cd;
+  border-top: 3px solid #f2f3f5;
+}
+
+.taskbar .start {
+  padding: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 32px;
+  font-weight: bold;
+  background: #c3c6cd;
+  border-top: 2px solid #deebf3;
+  border-left: 2px solid #deebf3;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.taskbar .start:active {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid #deebf3;
+  border-bottom: 2px solid #deebf3;
+}
+
+.taskbar #menuStart {
+  top: -240px;
+  left: 2px;
+  height: 240px;
+  width: 200px;
+  background-color: #c0c0c0;
+  position: absolute;
+  background: #c3c6cd;
+  border-top: 2px solid #deebf3;
+  border-left: 2px solid #deebf3;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.taskbar #menuStart .bar {
+  width: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #808080;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.taskbar #menuStart .bar .win {
+  color: #c0c0c0;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+  -webkit-transform-origin: center left;
+          transform-origin: center left;
+  display: inline-block;
+  width: 200px;
+  white-space: nowrap;
+  font-size: 20px;
+  margin-top: 215px;
+  margin-left: 10px;
+}
+
+.taskbar #menuStart .bar .num {
+  font-weight: 400;
+  color: white;
+}
+
+.taskbar #menuStart .menuItem {
+  color: black;
+  height: 32px;
+  margin-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.taskbar #menuStart .menuItem:hover {
+  background-color: #000080;
+  color: white;
+}
+
+.taskbar #menuStart .menuItem:first-letter {
+  text-decoration: underline;
+}
+
+.taskbar #menuStart #shutdown:first-letter {
+  text-decoration: none;
+}
+
+.taskbar #menuStart .divider {
+  height: 1px;
+  border-top: ridge 1px white;
+  border-bottom: ridge 1px grey;
+  margin: 2px;
+}
+
+.taskbar #menuStart .icons {
+  width: 30px;
+  padding-left: 5px;
+}
+
+.taskbar #menuStart .expander1:after {
+  content: '▶';
+  margin-left: 52px;
+}
+
+.taskbar #menuStart .expander2:after {
+  content: '▶';
+  margin-left: 40px;
+}
+
+.taskbar #menuStart .expander3:after {
+  content: '▶';
+  margin-left: 62px;
+}
+
+.taskbar .menu {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.taskbar .clock {
+  margin: 3px;
+  width: 70px;
+  height: 25px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid #deebf3;
+  border-bottom: 2px solid #deebf3;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.taskbar .show {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
